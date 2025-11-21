@@ -46,4 +46,4 @@ While A* is algorithmically superior in terms of node efficiency (Search Space p
 This solution was developed with the support of external resources:
 
   * **Algorithmic References:** The core logic for Dijkstra, Bellman-Ford, A\*, and Johnson's algorithms is based on standard implementations found in algorithm literature and online resources.
-  * **AI Assistance:** I utilized an AI coding assistant to help generate comprehensive **code comments** and improve the readability and formatting of the script. The logical implementation and problem-solving strategy remain my own work.
+  * **AI Assistance:** I utilized an AI coding assistant to help generate comprehensive **code comments**, draft this README file, improve the readability and formatting of the script. The logical implementation and problem-solving strategy remain my own work.
