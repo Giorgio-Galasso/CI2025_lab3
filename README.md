@@ -32,7 +32,7 @@ The project includes scripts to compare the performance of the algorithms. The b
 
 ## Experimental Findings
 Analyzing the benchmark results, several key insights emerged regarding the performance of Informed vs. Uninformed strategies:
-1. Computational Trade-offA* demonstrated a massive reduction in the search space, exploring significantly fewer nodes than Dijkstra in low-noise scenarios. However, on smaller graphs, Dijkstra was often slightly faster in terms of raw execution time.
+1. Computational Trade-off A* demonstrated a massive reduction in the search space, exploring significantly fewer nodes than Dijkstra in low-noise scenarios. However, on smaller graphs, Dijkstra was often slightly faster in terms of raw execution time.
 - Reason: A* incurs a computational overhead for calculating the heuristic (Euclidean distance requires square roots) at every step. Dijkstra's per-node operations are simpler (additions only). The time saved by visiting fewer nodes is sometimes outweighed by this mathematical overhead on small datasets.
 2. The Impact of Noise ($N$): The Noise level proved to be the most critical parameter affecting A*'s performance.
 - Low Noise ($N \approx 0$): The heuristic (Euclidean distance) is an excellent predictor of the actual path cost. A* is highly efficient, moving almost directly toward the target.
